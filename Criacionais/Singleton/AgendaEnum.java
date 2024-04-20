@@ -3,12 +3,12 @@ package Singleton;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Agenda {
-    //Singleton Eager
-    public static final Agenda INSTANCE = new Agenda();
+public enum AgendaEnum {
+    INSTANCE;
+
     private Map<String, Boolean> diasDisponiveis = new HashMap<>();
 
-    public Agenda(){
+    private AgendaEnum(){
         diasDisponiveis.put("Segunda", true);
         diasDisponiveis.put("Terça", true);
         diasDisponiveis.put("Quarta", true);
@@ -17,7 +17,7 @@ public class Agenda {
         diasDisponiveis.put("Sábado", true);
         diasDisponiveis.put("Domingo", true);
     }
-    public static Agenda getInstance(){
+    public static AgendaEnum getInstance(){
         return INSTANCE;
     }
     public Map<String, Boolean> getDias(){

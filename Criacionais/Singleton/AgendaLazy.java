@@ -2,13 +2,14 @@ package Singleton;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
-public class Agenda {
-    //Singleton Eager
-    public static final Agenda INSTANCE = new Agenda();
+public class AgendaLazy {
+    //Singleton Lazy
+    public static AgendaLazy INSTANCE = null;
     private Map<String, Boolean> diasDisponiveis = new HashMap<>();
 
-    public Agenda(){
+    public AgendaLazy(){
         diasDisponiveis.put("Segunda", true);
         diasDisponiveis.put("Terça", true);
         diasDisponiveis.put("Quarta", true);
@@ -17,7 +18,11 @@ public class Agenda {
         diasDisponiveis.put("Sábado", true);
         diasDisponiveis.put("Domingo", true);
     }
-    public static Agenda getInstance(){
+    public static AgendaLazy getInstance(){
+        if(Objects.isNull(INSTANCE)){
+            INSTANCE = new AgendaLazy();
+            return INSTANCE;
+        }
         return INSTANCE;
     }
     public Map<String, Boolean> getDias(){
