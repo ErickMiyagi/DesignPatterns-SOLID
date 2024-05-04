@@ -1,16 +1,16 @@
 
 # Design Patterns & SOLID
 
+- Nesse projeto irei introduzir e compreender os Padrões de Projeto(Desgin Patterns) e os princípios do SOLID, colocando boas práticas no código e reaproveitando.
 
-Padrões de Projeto, na qual colocaremos na prática padrões criacionais,estruturais e comportamentais, dentre eles:
 
-- Singleton
+## Conteúdo
 
-- Prototype
-- Factory Method
-- Builder
-- Proxy
-- Adapter
-- Estrategy
-- Chain of Responsability
-- Template Method
+- Padrões de projeto criacionais,comportamentais e estruturais, Princípios SOLID
+
+
+## Referência
+
+- Drive into Design Patterns
+- Refactoring Guru
+
