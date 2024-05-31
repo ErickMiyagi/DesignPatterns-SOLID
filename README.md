@@ -1,12 +1,12 @@
 
 # Design Patterns & SOLID
 
-- Nesse projeto irei introduzir e compreender os Padrões de Projeto(Desgin Patterns) e os princípios do SOLID, colocando boas práticas no código e reaproveitando.
+- Nesse projeto irei introduzir e compreender os Padrões de Projeto(Desgin Patterns) e os princípios do SOLID
 
 
 ## Conteúdo
 
-- Padrões de projeto criacionais,comportamentais e estruturais, Princípios SOLID
+- Principais Design Patterns a serem utilziados no dia a dia, sendo padrões criacionais,comportamentais e estruturais, e junto a isso colocando em prática os Princípios SOLID
 
 
 ## Referência
