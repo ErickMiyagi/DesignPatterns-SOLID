@@ -1,4 +1,6 @@
-package Estruturais.Decorator;
+package Estruturais.Decorator.controllers;
+
+import Estruturais.Decorator.models.Notifier;
 
 public class BaseDecorator implements Notifier{
 
